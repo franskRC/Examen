@@ -64,7 +64,7 @@ class TorneoVoley:
         self.equipo2.reiniciar_sets()
 
     def ver_resultados(self):
-        print("\n--- Resultados del Torneo ---")
+        print("\n**** Resultados del Torneo ***")
         print(self.equipo1.nombre + " → Ganados: " + str(self.equipo1.p_ganados) + " | Perdidos: " + str(self.equipo1.p_perdidos))
         print(self.equipo2.nombre + " → Ganados: " + str(self.equipo2.p_ganados) + " | Perdidos: " + str(self.equipo2.p_perdidos))
 
